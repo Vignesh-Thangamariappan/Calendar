@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		2F1934C924A617A5000EBEEB /* Swifty_Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F1934C724A617A5000EBEEB /* Swifty_Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F964FE124A6211F0048AA6D /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F964FE024A6211F0048AA6D /* DateUtils.swift */; };
+		43B5E913C7F34073389E77B7 /* Pods_Swifty_Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E9CE01F97DB48944648C63 /* Pods_Swifty_Utils.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2F1934C424A617A5000EBEEB /* Swifty_Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swifty_Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F1934C724A617A5000EBEEB /* Swifty_Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swifty_Utils.h; sourceTree = "<group>"; };
 		2F1934C824A617A5000EBEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F964FE024A6211F0048AA6D /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
+		4DC99DA31F6D288F5BEE8AD7 /* Pods-Swifty Utils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swifty Utils.release.xcconfig"; path = "Target Support Files/Pods-Swifty Utils/Pods-Swifty Utils.release.xcconfig"; sourceTree = "<group>"; };
+		CBBD26CB3CF66AAE935E8F9E /* Pods-Swifty Utils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swifty Utils.debug.xcconfig"; path = "Target Support Files/Pods-Swifty Utils/Pods-Swifty Utils.debug.xcconfig"; sourceTree = "<group>"; };
+		D9E9CE01F97DB48944648C63 /* Pods_Swifty_Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swifty_Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43B5E913C7F34073389E77B7 /* Pods_Swifty_Utils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +39,8 @@
 			children = (
 				2F1934C624A617A5000EBEEB /* Swifty Utils */,
 				2F1934C524A617A5000EBEEB /* Products */,
+				B3A29BE78B4FD84B5B28CFE8 /* Pods */,
+				3D46670C001F3F68200A44F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,9 +56,28 @@
 			isa = PBXGroup;
 			children = (
 				2F1934C724A617A5000EBEEB /* Swifty_Utils.h */,
+				2F964FE024A6211F0048AA6D /* DateUtils.swift */,
 				2F1934C824A617A5000EBEEB /* Info.plist */,
 			);
 			path = "Swifty Utils";
+			sourceTree = "<group>";
+		};
+		3D46670C001F3F68200A44F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9E9CE01F97DB48944648C63 /* Pods_Swifty_Utils.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3A29BE78B4FD84B5B28CFE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBBD26CB3CF66AAE935E8F9E /* Pods-Swifty Utils.debug.xcconfig */,
+				4DC99DA31F6D288F5BEE8AD7 /* Pods-Swifty Utils.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,6 +98,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F1934CC24A617A5000EBEEB /* Build configuration list for PBXNativeTarget "Swifty Utils" */;
 			buildPhases = (
+				78EE0E681A4DB5EFFC167B17 /* [CP] Check Pods Manifest.lock */,
 				2F1934BF24A617A5000EBEEB /* Headers */,
 				2F1934C024A617A5000EBEEB /* Sources */,
 				2F1934C124A617A5000EBEEB /* Frameworks */,
@@ -95,6 +124,7 @@
 				TargetAttributes = {
 					2F1934C324A617A5000EBEEB = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 				};
 			};
@@ -126,11 +156,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		78EE0E681A4DB5EFFC167B17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swifty Utils-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2F1934C024A617A5000EBEEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F964FE124A6211F0048AA6D /* DateUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +315,9 @@
 		};
 		2F1934CD24A617A5000EBEEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBBD26CB3CF66AAE935E8F9E /* Pods-Swifty Utils.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = FQ2VH4S3H2;
@@ -276,6 +334,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.swifty.swiftyUtils;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -283,7 +342,9 @@
 		};
 		2F1934CE24A617A5000EBEEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DC99DA31F6D288F5BEE8AD7 /* Pods-Swifty Utils.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = FQ2VH4S3H2;
