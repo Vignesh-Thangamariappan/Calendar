@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CalendarTheme Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/CalendarTheme" class="dashAnchor"></a>
+    <a title="CalendarTheme Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">AnywhereCalendarViewSDK 0.1.13 Docs</a> (3% documented)</p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">AnywhereCalendarViewSDK Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        CalendarTheme Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AnytimeEventCell.html">AnytimeEventCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AnywhereCalendarView.html">AnywhereCalendarView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CalendarHeaderButton.html">CalendarHeaderButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FullCalendarCustomizationProvider.html">FullCalendarCustomizationProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ScheduleBaseViewController.html">ScheduleBaseViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TappableView.html">TappableView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/CalendarLayoutType.html">CalendarLayoutType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CalendarSlotSize.html">CalendarSlotSize</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/ActionableView.html">ActionableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CalendarActionDelegate.html">CalendarActionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:23AnywhereCalendarViewSDK0B7CellNibP">CalendarCellNib</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CalendarCustomizationProviderDelegate.html">CalendarCustomizationProviderDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CalendarDataProvider.html">CalendarDataProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:23AnywhereCalendarViewSDK0B15HeaderFooterNibP">CalendarHeaderFooterNib</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CalendarItem.html">CalendarItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CalendarSwipeActionDelegate.html">CalendarSwipeActionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CalendarView.html">CalendarView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:23AnywhereCalendarViewSDK26ConfigurableAllDayEventNibP">ConfigurableAllDayEventNib</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ConfigurableAllDayEventView.html">ConfigurableAllDayEventView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ConfigurableCell.html">ConfigurableCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ConfigurableView.html">ConfigurableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FullCalendarDataSource.html">FullCalendarDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FullCalendarView.html">FullCalendarView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Tappable.html">Tappable</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/AnywhereCalendarItem.html">AnywhereCalendarItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CalendarConfiguration.html">CalendarConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CalendarDimensions.html">CalendarDimensions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CalendarTheme.html">CalendarTheme</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CalendarViewConfiguration.html">CalendarViewConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CalendarViewConfiguration/ExcessAllDayEventsTitleConfiguration.html">– ExcessAllDayEventsTitleConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:23AnywhereCalendarViewSDK15DayAvailabilityV">DayAvailability</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScheduleViewConfiguration.html">ScheduleViewConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScheduleViewConfiguration/PlaceholderConfig.html">– PlaceholderConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScheduleViewDimensions.html">ScheduleViewDimensions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/UserAvailability.html">UserAvailability</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/WorkingHour.html">WorkingHour</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:23AnywhereCalendarViewSDK22TappableAllDayEventNiba">TappableAllDayEventNib</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:23AnywhereCalendarViewSDK019TappableAllDayEventC0a">TappableAllDayEventView</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>CalendarTheme</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">CalendarTheme</span> <span class="p">:</span> <span class="kt">Theme</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK0B5ThemeV15backgroundColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/backgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK0B5ThemeV15backgroundColorSo7UIColorCvp">backgroundColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">backgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK0B5ThemeV23offHoursBackgroundColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/offHoursBackgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK0B5ThemeV23offHoursBackgroundColorSo7UIColorCvp">offHoursBackgroundColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">offHoursBackgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK0B5ThemeV19offHoursStripeColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/offHoursStripeColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK0B5ThemeV19offHoursStripeColorSo7UIColorCvp">offHoursStripeColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">offHoursStripeColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK0B5ThemeV27workingHoursBackgroundColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/workingHoursBackgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK0B5ThemeV27workingHoursBackgroundColorSo7UIColorCvp">workingHoursBackgroundColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">workingHoursBackgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK0B5ThemeV24workingHoursDivLineColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/workingHoursDivLineColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK0B5ThemeV24workingHoursDivLineColorSo7UIColorCvp">workingHoursDivLineColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">workingHoursDivLineColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK0B5ThemeV18hourSeparatorColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/hourSeparatorColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK0B5ThemeV18hourSeparatorColorSo7UIColorCvp">hourSeparatorColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">hourSeparatorColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK0B5ThemeV17daySeparatorColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/daySeparatorColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK0B5ThemeV17daySeparatorColorSo7UIColorCvp">daySeparatorColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">daySeparatorColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK0B5ThemeV25timeHeaderBackgroundColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/timeHeaderBackgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK0B5ThemeV25timeHeaderBackgroundColorSo7UIColorCvp">timeHeaderBackgroundColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">timeHeaderBackgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK0B5ThemeV19timeheaderTextColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/timeheaderTextColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK0B5ThemeV19timeheaderTextColorSo7UIColorCvp">timeheaderTextColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">timeheaderTextColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK0B5ThemeV25dateHeaderBackgroundColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/dateHeaderBackgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK0B5ThemeV25dateHeaderBackgroundColorSo7UIColorCvp">dateHeaderBackgroundColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">dateHeaderBackgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK0B5ThemeV25currentDateHighlightColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/currentDateHighlightColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK0B5ThemeV25currentDateHighlightColorSo7UIColorCvp">currentDateHighlightColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">currentDateHighlightColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK0B5ThemeV20currentTimelineColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/currentTimelineColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK0B5ThemeV20currentTimelineColorSo7UIColorCvp">currentTimelineColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">currentTimelineColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK0B5ThemeV13selectorColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/selectorColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK0B5ThemeV13selectorColorSo7UIColorCvp">selectorColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">selectorColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK0B5ThemeV7headingSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/heading" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK0B5ThemeV7headingSo7UIColorCvp">heading</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">heading</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK0B5ThemeV10subHeadingSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/subHeading" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK0B5ThemeV10subHeadingSo7UIColorCvp">subHeading</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">subHeading</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK0B5ThemeV11dayOffColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/dayOffColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK0B5ThemeV11dayOffColorSo7UIColorCvp">dayOffColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">dayOffColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK0B5ThemeV4DarkACvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/Dark" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK0B5ThemeV4DarkACvpZ">Dark</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">var</span> <span class="nv">Dark</span><span class="p">:</span> <span class="err">`</span><span class="k">Self</span><span class="err">`</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK0B5ThemeV5LightACvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/Light" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK0B5ThemeV5LightACvpZ">Light</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">var</span> <span class="nv">Light</span><span class="p">:</span> <span class="err">`</span><span class="k">Self</span><span class="err">`</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK0B5ThemeV06SystemE0ACvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/SystemTheme" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK0B5ThemeV06SystemE0ACvpZ">SystemTheme</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">var</span> <span class="nv">SystemTheme</span><span class="p">:</span> <span class="err">`</span><span class="k">Self</span><span class="err">`</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2021 <a class="link" href="https://github.com/Adaptavant/iOS-Calendar-SDK" target="_blank" rel="external">Vignesh Thangamariappan</a>. All rights reserved. (Last updated: 2021-07-07)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

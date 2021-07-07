@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ScheduleBaseViewController Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/ScheduleBaseViewController" class="dashAnchor"></a>
+    <a title="ScheduleBaseViewController Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">AnywhereCalendarViewSDK 0.1.13 Docs</a> (3% documented)</p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">AnywhereCalendarViewSDK Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        ScheduleBaseViewController Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AnytimeEventCell.html">AnytimeEventCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AnywhereCalendarView.html">AnywhereCalendarView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CalendarHeaderButton.html">CalendarHeaderButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FullCalendarCustomizationProvider.html">FullCalendarCustomizationProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ScheduleBaseViewController.html">ScheduleBaseViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TappableView.html">TappableView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/CalendarLayoutType.html">CalendarLayoutType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CalendarSlotSize.html">CalendarSlotSize</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/ActionableView.html">ActionableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CalendarActionDelegate.html">CalendarActionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:23AnywhereCalendarViewSDK0B7CellNibP">CalendarCellNib</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CalendarCustomizationProviderDelegate.html">CalendarCustomizationProviderDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CalendarDataProvider.html">CalendarDataProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:23AnywhereCalendarViewSDK0B15HeaderFooterNibP">CalendarHeaderFooterNib</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CalendarItem.html">CalendarItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CalendarSwipeActionDelegate.html">CalendarSwipeActionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CalendarView.html">CalendarView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:23AnywhereCalendarViewSDK26ConfigurableAllDayEventNibP">ConfigurableAllDayEventNib</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ConfigurableAllDayEventView.html">ConfigurableAllDayEventView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ConfigurableCell.html">ConfigurableCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ConfigurableView.html">ConfigurableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FullCalendarDataSource.html">FullCalendarDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FullCalendarView.html">FullCalendarView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Tappable.html">Tappable</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/AnywhereCalendarItem.html">AnywhereCalendarItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CalendarConfiguration.html">CalendarConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CalendarDimensions.html">CalendarDimensions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CalendarTheme.html">CalendarTheme</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CalendarViewConfiguration.html">CalendarViewConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CalendarViewConfiguration/ExcessAllDayEventsTitleConfiguration.html">– ExcessAllDayEventsTitleConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:23AnywhereCalendarViewSDK15DayAvailabilityV">DayAvailability</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScheduleViewConfiguration.html">ScheduleViewConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScheduleViewConfiguration/PlaceholderConfig.html">– PlaceholderConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScheduleViewDimensions.html">ScheduleViewDimensions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/UserAvailability.html">UserAvailability</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/WorkingHour.html">WorkingHour</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:23AnywhereCalendarViewSDK22TappableAllDayEventNiba">TappableAllDayEventNib</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:23AnywhereCalendarViewSDK019TappableAllDayEventC0a">TappableAllDayEventView</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ScheduleBaseViewController</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">ScheduleBaseViewController</span> <span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">ScheduleBaseViewController</span><span class="p">:</span> <span class="kt"><a href="../Protocols/CalendarView.html">CalendarView</a></span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">ScheduleBaseViewController</span><span class="p">:</span> <span class="kt"><a href="../Protocols/FullCalendarView.html">FullCalendarView</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC14actionDelegateAA0b6ActionI0_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/actionDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC14actionDelegateAA0b6ActionI0_pSgvp">actionDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">actionDelegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/CalendarActionDelegate.html">CalendarActionDelegate</a></span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC12dataProviderAA0b4DataI0_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/dataProvider" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC12dataProviderAA0b4DataI0_pSgvp">dataProvider</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">dataProvider</span><span class="p">:</span> <span class="kt"><a href="../Protocols/CalendarDataProvider.html">CalendarDataProvider</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@AnywhereCalendarViewSDK@objc(cs)ScheduleBaseViewController(im)viewDidLoad"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLoad()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@AnywhereCalendarViewSDK@objc(cs)ScheduleBaseViewController(im)viewDidLoad">viewDidLoad()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@AnywhereCalendarViewSDK@objc(cs)ScheduleBaseViewController(im)viewWillTransitionToSize:withTransitionCoordinator:"></a>
+                    <a name="//apple_ref/swift/Method/viewWillTransition(to:with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@AnywhereCalendarViewSDK@objc(cs)ScheduleBaseViewController(im)viewWillTransitionToSize:withTransitionCoordinator:">viewWillTransition(to:<wbr>with:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewWillTransition</span><span class="p">(</span><span class="n">to</span> <span class="nv">size</span><span class="p">:</span> <span class="kt">CGSize</span><span class="p">,</span> <span class="n">with</span> <span class="nv">coordinator</span><span class="p">:</span> <span class="kt">UIViewControllerTransitionCoordinator</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC13setActiveDateyy10Foundation0J0VF"></a>
+                    <a name="//apple_ref/swift/Method/setActiveDate(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC13setActiveDateyy10Foundation0J0VF">setActiveDate(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setActiveDate</span><span class="p">(</span><span class="n">_</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC06reloadB0yyF"></a>
+                    <a name="//apple_ref/swift/Method/reloadCalendar()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC06reloadB0yyF">reloadCalendar()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">reloadCalendar</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC12scrollToDate4date10toLastItemy10Foundation0J0V_SbtF"></a>
+                    <a name="//apple_ref/swift/Method/scrollToDate(date:toLastItem:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC12scrollToDate4date10toLastItemy10Foundation0J0V_SbtF">scrollToDate(date:<wbr>toLastItem:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">scrollToDate</span><span class="p">(</span><span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="nv">toLastItem</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC11insertItems2atySay10Foundation9IndexPathVG_tF"></a>
+                    <a name="//apple_ref/swift/Method/insertItems(at:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC11insertItems2atySay10Foundation9IndexPathVG_tF">insertItems(at:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">insertItems</span><span class="p">(</span><span class="n">at</span> <span class="nv">indexPaths</span><span class="p">:</span> <span class="p">[</span><span class="kt">IndexPath</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC11deleteItems2atySay10Foundation9IndexPathVG_tF"></a>
+                    <a name="//apple_ref/swift/Method/deleteItems(at:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC11deleteItems2atySay10Foundation9IndexPathVG_tF">deleteItems(at:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">deleteItems</span><span class="p">(</span><span class="n">at</span> <span class="nv">indexPaths</span><span class="p">:</span> <span class="p">[</span><span class="kt">IndexPath</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC8moveItem4from2toy10Foundation9IndexPathV_AItF"></a>
+                    <a name="//apple_ref/swift/Method/moveItem(from:to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC8moveItem4from2toy10Foundation9IndexPathV_AItF">moveItem(from:<wbr>to:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">moveItem</span><span class="p">(</span><span class="n">from</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="n">to</span> <span class="nv">newIndexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC11reloadItems2atySay10Foundation9IndexPathVG_tF"></a>
+                    <a name="//apple_ref/swift/Method/reloadItems(at:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC11reloadItems2atySay10Foundation9IndexPathVG_tF">reloadItems(at:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">reloadItems</span><span class="p">(</span><span class="n">at</span> <span class="nv">indexPaths</span><span class="p">:</span> <span class="p">[</span><span class="kt">IndexPath</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC12scrollToDate4datey10Foundation0J0V_tF"></a>
+                    <a name="//apple_ref/swift/Method/scrollToDate(date:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC12scrollToDate4datey10Foundation0J0V_tF">scrollToDate(date:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">scrollToDate</span><span class="p">(</span><span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC19dequeueReusableCell19withReuseIdentifier3forAA012ConfigurableJ0_pSgSS_10Foundation9IndexPathVtF"></a>
+                    <a name="//apple_ref/swift/Method/dequeueReusableCell(withReuseIdentifier:for:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC19dequeueReusableCell19withReuseIdentifier3forAA012ConfigurableJ0_pSgSS_10Foundation9IndexPathVtF">dequeueReusableCell(withReuseIdentifier:<wbr>for:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">dequeueReusableCell</span><span class="p">(</span><span class="n">withReuseIdentifier</span> <span class="nv">identifier</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="k">for</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/ConfigurableCell.html">ConfigurableCell</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC8register_26forCellWithReuseIdentifierySo5UINibCSg_SStF"></a>
+                    <a name="//apple_ref/swift/Method/register(_:forCellWithReuseIdentifier:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC8register_26forCellWithReuseIdentifierySo5UINibCSg_SStF">register(_:<wbr>forCellWithReuseIdentifier:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">register</span><span class="p">(</span><span class="n">_</span> <span class="nv">nib</span><span class="p">:</span> <span class="kt">UINib</span><span class="p">?,</span> <span class="n">forCellWithReuseIdentifier</span> <span class="nv">identifier</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC8register_26forCellWithReuseIdentifieryyXlXpSg_SStF"></a>
+                    <a name="//apple_ref/swift/Method/register(_:forCellWithReuseIdentifier:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC8register_26forCellWithReuseIdentifieryyXlXpSg_SStF">register(_:<wbr>forCellWithReuseIdentifier:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">register</span><span class="p">(</span><span class="n">_</span> <span class="nv">cellClass</span><span class="p">:</span> <span class="kt">AnyClass</span><span class="p">?,</span> <span class="n">forCellWithReuseIdentifier</span> <span class="nv">identifier</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK04FullbC0P8register_015forHeaderFooterC15ReuseIdentifieryAA012ConfigurableC0_pXp_SStF"></a>
+                    <a name="//apple_ref/swift/Method/register(_:forHeaderFooterViewReuseIdentifier:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK04FullbC0P8register_015forHeaderFooterC15ReuseIdentifieryAA012ConfigurableC0_pXp_SStF">register(_:<wbr>forHeaderFooterViewReuseIdentifier:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">register</span><span class="p">(</span><span class="n">_</span> <span class="nv">viewType</span><span class="p">:</span> <span class="kt"><a href="../Protocols/ConfigurableView.html">ConfigurableView</a></span><span class="o">.</span><span class="k">Type</span><span class="p">,</span> <span class="n">forHeaderFooterViewReuseIdentifier</span> <span class="nv">identifier</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC8register_015forHeaderFooterC15ReuseIdentifieryAA0bjK3Nib_pXp_SStF"></a>
+                    <a name="//apple_ref/swift/Method/register(_:forHeaderFooterViewReuseIdentifier:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC8register_015forHeaderFooterC15ReuseIdentifieryAA0bjK3Nib_pXp_SStF">register(_:<wbr>forHeaderFooterViewReuseIdentifier:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">register</span><span class="p">(</span><span class="n">_</span> <span class="nv">nibType</span><span class="p">:</span> <span class="kt"><a href="../Protocols.html#/s:23AnywhereCalendarViewSDK0B15HeaderFooterNibP">CalendarHeaderFooterNib</a></span><span class="o">.</span><span class="k">Type</span><span class="p">,</span> <span class="n">forHeaderFooterViewReuseIdentifier</span> <span class="nv">identifier</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC027dequeueReusableHeaderFooterC019withReuseIdentifier3forAA012ConfigurableC0_pSgSS_SitF"></a>
+                    <a name="//apple_ref/swift/Method/dequeueReusableHeaderFooterView(withReuseIdentifier:for:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC027dequeueReusableHeaderFooterC019withReuseIdentifier3forAA012ConfigurableC0_pSgSS_SitF">dequeueReusableHeaderFooterView(withReuseIdentifier:<wbr>for:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">dequeueReusableHeaderFooterView</span><span class="p">(</span><span class="n">withReuseIdentifier</span> <span class="nv">identifier</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="k">for</span> <span class="nv">section</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/ConfigurableView.html">ConfigurableView</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC12beginUpdatesyyF"></a>
+                    <a name="//apple_ref/swift/Method/beginUpdates()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC12beginUpdatesyyF">beginUpdates()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">beginUpdates</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC10endUpdatesyyF"></a>
+                    <a name="//apple_ref/swift/Method/endUpdates()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC10endUpdatesyyF">endUpdates()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">endUpdates</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC13insertSection2atySi_tF"></a>
+                    <a name="//apple_ref/swift/Method/insertSection(at:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC13insertSection2atySi_tF">insertSection(at:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">insertSection</span><span class="p">(</span><span class="n">at</span> <span class="nv">section</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC13deleteSection2atySi_tF"></a>
+                    <a name="//apple_ref/swift/Method/deleteSection(at:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:23AnywhereCalendarViewSDK012ScheduleBaseC10ControllerC13deleteSection2atySi_tF">deleteSection(at:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">deleteSection</span><span class="p">(</span><span class="n">at</span> <span class="nv">section</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2021 <a class="link" href="https://github.com/Adaptavant/iOS-Calendar-SDK" target="_blank" rel="external">Vignesh Thangamariappan</a>. All rights reserved. (Last updated: 2021-07-07)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

@@ -1,0 +1,1874 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/AnytimeCalendarSubviews.swift",
+      "line": 175,
+      "symbol": "AnytimeEventCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/AnytimeCalendarSubviews.swift",
+      "line": 211,
+      "symbol": "AnytimeEventCell.configure(_:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/AnytimeCalendarSubviews.swift",
+      "line": 225,
+      "symbol": "AnytimeEventCell.apply(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/Availability.swift",
+      "line": 11,
+      "symbol": "UserAvailability",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/Availability.swift",
+      "line": 13,
+      "symbol": "UserAvailability.sunday",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/Availability.swift",
+      "line": 14,
+      "symbol": "UserAvailability.monday",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/Availability.swift",
+      "line": 15,
+      "symbol": "UserAvailability.tuesday",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/Availability.swift",
+      "line": 16,
+      "symbol": "UserAvailability.wednesday",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/Availability.swift",
+      "line": 17,
+      "symbol": "UserAvailability.thursday",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/Availability.swift",
+      "line": 18,
+      "symbol": "UserAvailability.friday",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/Availability.swift",
+      "line": 19,
+      "symbol": "UserAvailability.saturday",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/Availability.swift",
+      "line": 25,
+      "symbol": "UserAvailability.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/Availability.swift",
+      "line": 45,
+      "symbol": "UserAvailability.getAvailability(forDay:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/Availability.swift",
+      "line": 74,
+      "symbol": "DayAvailability",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/Availability.swift",
+      "line": 78,
+      "symbol": "WorkingHour",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/Availability.swift",
+      "line": 86,
+      "symbol": "WorkingHour.init(start:end:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarCollectionViewLayout.swift",
+      "line": 199,
+      "symbol": "CalendarCollectionViewLayout.layoutAttributesForDecorationView(ofKind:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarCollectionViewLayout.swift",
+      "line": 206,
+      "symbol": "CalendarCollectionViewLayout.layoutAttributesForSupplementaryView(ofKind:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarHeaderButton.swift",
+      "line": 8,
+      "symbol": "CalendarHeaderButton",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarHeaderButton.swift",
+      "line": 12,
+      "symbol": "CalendarHeaderButton.init(withFrame:actionIdentifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarHeaderButton.swift",
+      "line": 26,
+      "symbol": "CalendarHeaderButton.didMoveToSuperview()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarItem.swift",
+      "line": 13,
+      "symbol": "CalendarItem",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarItem.swift",
+      "line": 14,
+      "symbol": "CalendarItem.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarItem.swift",
+      "line": 15,
+      "symbol": "CalendarItem.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarItem.swift",
+      "line": 16,
+      "symbol": "CalendarItem.startDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarItem.swift",
+      "line": 17,
+      "symbol": "CalendarItem.endDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarItem.swift",
+      "line": 18,
+      "symbol": "CalendarItem.color",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarItem.swift",
+      "line": 19,
+      "symbol": "CalendarItem.shouldAllowEditing",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarItem.swift",
+      "line": 20,
+      "symbol": "CalendarItem.isAllDay",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarItem.swift",
+      "line": 23,
+      "symbol": "AnywhereCalendarItem",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarItem.swift",
+      "line": 24,
+      "symbol": "AnywhereCalendarItem.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarItem.swift",
+      "line": 25,
+      "symbol": "AnywhereCalendarItem.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarItem.swift",
+      "line": 26,
+      "symbol": "AnywhereCalendarItem.startDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarItem.swift",
+      "line": 27,
+      "symbol": "AnywhereCalendarItem.endDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarItem.swift",
+      "line": 29,
+      "symbol": "AnywhereCalendarItem.color",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarItem.swift",
+      "line": 30,
+      "symbol": "AnywhereCalendarItem.shouldAllowEditing",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarItem.swift",
+      "line": 31,
+      "symbol": "AnywhereCalendarItem.isAllDay",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarItem.swift",
+      "line": 33,
+      "symbol": "AnywhereCalendarItem.init(withId:title:startDate:endDate:color:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarLayoutView/CalendarLayoutViewController+Delegates.swift",
+      "line": 15,
+      "symbol": "CalendarLayoutViewController.collectionView(_:didSelectItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarLayoutView/CalendarLayoutViewController+Delegates.swift",
+      "line": 26,
+      "symbol": "CalendarLayoutViewController.collectionView(_:viewForSupplementaryElementOfKind:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarLayoutView/CalendarLayoutViewController+Delegates.swift",
+      "line": 117,
+      "symbol": "CalendarLayoutViewController.userAvailability(forSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarLayoutView/CalendarLayoutViewController+Delegates.swift",
+      "line": 121,
+      "symbol": "CalendarLayoutViewController.indexForCurrentTimeLine",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarLayoutView/CalendarLayoutViewController+FullCalendarView.swift",
+      "line": 12,
+      "symbol": "CalendarLayoutViewController.dequeueReusableCell(withReuseIdentifier:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarLayoutView/CalendarLayoutViewController+FullCalendarView.swift",
+      "line": 16,
+      "symbol": "CalendarLayoutViewController.register(_:forCellWithReuseIdentifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarLayoutView/CalendarLayoutViewController+FullCalendarView.swift",
+      "line": 20,
+      "symbol": "CalendarLayoutViewController.register(_:forCellWithReuseIdentifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarLayoutView/CalendarLayoutViewController+FullCalendarView.swift",
+      "line": 31,
+      "symbol": "CalendarLayoutViewController.register(_:forHeaderFooterViewReuseIdentifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarLayoutView/CalendarLayoutViewController+FullCalendarView.swift",
+      "line": 35,
+      "symbol": "CalendarLayoutViewController.dequeueReusableHeaderFooterView(withReuseIdentifier:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarLayoutView/CalendarLayoutViewController+FullCalendarView.swift",
+      "line": 43,
+      "symbol": "CalendarLayoutViewController.reloadCalendar()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarLayoutView/CalendarLayoutViewController+FullCalendarView.swift",
+      "line": 47,
+      "symbol": "CalendarLayoutViewController.insertItems(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarLayoutView/CalendarLayoutViewController+FullCalendarView.swift",
+      "line": 51,
+      "symbol": "CalendarLayoutViewController.deleteItems(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarLayoutView/CalendarLayoutViewController+FullCalendarView.swift",
+      "line": 55,
+      "symbol": "CalendarLayoutViewController.reloadItems(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarLayoutView/CalendarLayoutViewController+FullCalendarView.swift",
+      "line": 59,
+      "symbol": "CalendarLayoutViewController.moveItem(from:to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarLayoutView/CalendarLayoutViewController+FullCalendarView.swift",
+      "line": 64,
+      "symbol": "CalendarLayoutViewController.performBatchUpdates(_:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarLayoutView/CalendarLayoutViewController+OtherExtensions.swift",
+      "line": 31,
+      "symbol": "CalendarLayoutViewController.getCalendarItems(forSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarLayoutView/CalendarLayoutViewController+OtherExtensions.swift",
+      "line": 38,
+      "symbol": "CalendarLayoutViewController.getCalendarCell(forItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarLayoutView/CalendarLayoutViewController.swift",
+      "line": 424,
+      "symbol": "CalendarLayoutViewController.collectionView(_:cellForItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarLayoutView/CalendarLayoutViewController.swift",
+      "line": 430,
+      "symbol": "CalendarLayoutViewController.numberOfSections(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarLayoutView/CalendarLayoutViewController.swift",
+      "line": 434,
+      "symbol": "CalendarLayoutViewController.collectionView(_:numberOfItemsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarLayoutView/CalendarLayoutViewController.swift",
+      "line": 445,
+      "symbol": "CalendarLayoutViewController.reloadView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarLayoutView/CalendarLayoutViewController.swift",
+      "line": 455,
+      "symbol": "CalendarLayoutViewController.scrollViewDidScroll(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 15,
+      "symbol": "CalendarActionDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 17,
+      "symbol": "CalendarActionDelegate.didSelectCell(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 18,
+      "symbol": "CalendarActionDelegate.didTapCalendar(on:atTime:duration:notifyCompletion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 19,
+      "symbol": "CalendarActionDelegate.didTapOffHours(on:atTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 20,
+      "symbol": "CalendarActionDelegate.didScroll(toDate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 21,
+      "symbol": "CalendarActionDelegate.didSwipeToCalendar(withDates:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 22,
+      "symbol": "CalendarActionDelegate.showError(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 23,
+      "symbol": "CalendarActionDelegate.refreshContent()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 38,
+      "symbol": "CalendarActionDelegate.executeAction(withIdentifier:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 41,
+      "symbol": "CalendarActionDelegate",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 43,
+      "symbol": "CalendarActionDelegate.didTapOffHours(on:atTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 44,
+      "symbol": "CalendarActionDelegate.didSwipeToCalendar(withDates:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 45,
+      "symbol": "CalendarActionDelegate.showError(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 46,
+      "symbol": "CalendarActionDelegate.refreshContent()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 49,
+      "symbol": "CalendarActionDelegate.didScroll(toDate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 58,
+      "symbol": "CalendarLayoutType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 59,
+      "symbol": "CalendarLayoutType.custom(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 59,
+      "symbol": "CalendarLayoutType.daily",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 59,
+      "symbol": "CalendarLayoutType.threeDay",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 59,
+      "symbol": "CalendarLayoutType.weekly",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 75,
+      "symbol": "CalendarDataProvider",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 76,
+      "symbol": "CalendarDataProvider.getCustomizationProvider(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 77,
+      "symbol": "CalendarDataProvider.getDataSource(forPage:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 80,
+      "symbol": "FullCalendarDataSource",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 86,
+      "symbol": "FullCalendarDataSource.activeCalendarView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 88,
+      "symbol": "FullCalendarDataSource.activeDates",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 90,
+      "symbol": "FullCalendarDataSource.numberOfCalendarItems",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 92,
+      "symbol": "FullCalendarDataSource.getCalendarItems(forSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 94,
+      "symbol": "FullCalendarDataSource.numberOfItems(inSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 96,
+      "symbol": "FullCalendarDataSource.getAvailability(forSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 98,
+      "symbol": "FullCalendarDataSource.shouldShowDayOff(forSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 100,
+      "symbol": "FullCalendarDataSource.getAllDayEvents(forSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 103,
+      "symbol": "FullCalendarDataSource",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 105,
+      "symbol": "FullCalendarDataSource.numberOfCalendarItems",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 109,
+      "symbol": "FullCalendarDataSource.getAvailability(forSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 113,
+      "symbol": "FullCalendarDataSource.shouldShowDayOff(forSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 117,
+      "symbol": "FullCalendarDataSource.getAllDayEvents(forSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 122,
+      "symbol": "CalendarCellNib",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 124,
+      "symbol": "CalendarHeaderFooterNib",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 126,
+      "symbol": "ActionableView",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 127,
+      "symbol": "ActionableView.actionDelegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 130,
+      "symbol": "ConfigurableView",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 131,
+      "symbol": "ConfigurableView.section",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 132,
+      "symbol": "ConfigurableView.configure(_:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 135,
+      "symbol": "ConfigurableView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 136,
+      "symbol": "ConfigurableView.actionDelegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 146,
+      "symbol": "ConfigurableAllDayEventView",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 147,
+      "symbol": "ConfigurableAllDayEventView.item",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 148,
+      "symbol": "ConfigurableAllDayEventView.configure(withEvent:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 149,
+      "symbol": "ConfigurableAllDayEventView.configure(withTitle:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 152,
+      "symbol": "ConfigurableAllDayEventNib",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 154,
+      "symbol": "ConfigurableCell",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 155,
+      "symbol": "ConfigurableCell.configure(_:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 161,
+      "symbol": "TappableAllDayEventView",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 162,
+      "symbol": "TappableAllDayEventNib",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 164,
+      "symbol": "Tappable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/CalendarProtocols.swift",
+      "line": 165,
+      "symbol": "Tappable.action",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarBaseViewController.swift",
+      "line": 244,
+      "symbol": "CalendarViewController.scrollViewDidScroll(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarBaseViewController.swift",
+      "line": 249,
+      "symbol": "CalendarViewController.collectionView(_:numberOfItemsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarBaseViewController.swift",
+      "line": 253,
+      "symbol": "CalendarViewController.collectionView(_:cellForItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarBaseViewController.swift",
+      "line": 257,
+      "symbol": "CalendarViewController.collectionView(_:viewForSupplementaryElementOfKind:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarBaseViewController.swift",
+      "line": 288,
+      "symbol": "CalendarViewController.calendarViewDidScroll(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarBaseViewController.swift",
+      "line": 295,
+      "symbol": "CalendarViewController.setActiveDate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarCustomizationProvider.swift",
+      "line": 12,
+      "symbol": "CalendarCustomizationProviderDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarCustomizationProvider.swift",
+      "line": 13,
+      "symbol": "CalendarCustomizationProviderDelegate.reuseIdentifier(forItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarCustomizationProvider.swift",
+      "line": 14,
+      "symbol": "CalendarCustomizationProviderDelegate.reuseIdentifier(forHeaderAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarCustomizationProvider.swift",
+      "line": 15,
+      "symbol": "CalendarCustomizationProviderDelegate.reuseIdentifier(forFooterAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarCustomizationProvider.swift",
+      "line": 16,
+      "symbol": "CalendarCustomizationProviderDelegate.height(forRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarCustomizationProvider.swift",
+      "line": 17,
+      "symbol": "CalendarCustomizationProviderDelegate.dayOffTitle(forSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarCustomizationProvider.swift",
+      "line": 20,
+      "symbol": "CalendarCustomizationProviderDelegate",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarCustomizationProvider.swift",
+      "line": 22,
+      "symbol": "CalendarCustomizationProviderDelegate.height(forRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarCustomizationProvider.swift",
+      "line": 26,
+      "symbol": "CalendarCustomizationProviderDelegate.dayOffTitle(forSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarCustomizationProvider.swift",
+      "line": 31,
+      "symbol": "CalendarSwipeActionDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarCustomizationProvider.swift",
+      "line": 33,
+      "symbol": "CalendarSwipeActionDelegate.leadingSwipeActionsConfiguration(forRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarCustomizationProvider.swift",
+      "line": 34,
+      "symbol": "CalendarSwipeActionDelegate.trailingSwipeActionsConfiguration(forRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarCustomizationProvider.swift",
+      "line": 37,
+      "symbol": "CalendarCustomizationProviderDelegate",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarCustomizationProvider.swift",
+      "line": 39,
+      "symbol": "CalendarCustomizationProviderDelegate.reuseIdentifier(forHeaderAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarCustomizationProvider.swift",
+      "line": 43,
+      "symbol": "CalendarCustomizationProviderDelegate.reuseIdentifier(forFooterAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarCustomizationProvider.swift",
+      "line": 48,
+      "symbol": "FullCalendarCustomizationProvider",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarCustomizationProvider.swift",
+      "line": 64,
+      "symbol": "FullCalendarCustomizationProvider.swipeActionDelegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarCustomizationProvider.swift",
+      "line": 135,
+      "symbol": "FullCalendarCustomizationProvider.dequeueCalendarCell(forIndexPath:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarCustomizationProvider.swift",
+      "line": 212,
+      "symbol": "FullCalendarCustomizationProvider",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarCustomizationProvider.swift",
+      "line": 214,
+      "symbol": "FullCalendarCustomizationProvider.custom(forCalendarView:withCustomCalendarCells:calendarNibs:headerFooterViews:andHeaderFooterNibs:delegate:placeholderView:placeholderNib:allDayEventView:allDayEventNib:dayOffView:dayOffNib:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 11,
+      "symbol": "FullCalendarView",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 13,
+      "symbol": "FullCalendarView.reloadCalendar()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 14,
+      "symbol": "FullCalendarView.insertItems(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 15,
+      "symbol": "FullCalendarView.deleteItems(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 16,
+      "symbol": "FullCalendarView.reloadItems(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 17,
+      "symbol": "FullCalendarView.moveItem(from:to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 18,
+      "symbol": "FullCalendarView.performBatchUpdates(_:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 19,
+      "symbol": "FullCalendarView.beginUpdates()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 20,
+      "symbol": "FullCalendarView.endUpdates()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 21,
+      "symbol": "FullCalendarView.scrollToDate(date:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 22,
+      "symbol": "FullCalendarView.insertSection(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 23,
+      "symbol": "FullCalendarView.deleteSection(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 24,
+      "symbol": "FullCalendarView.reloadSection(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 27,
+      "symbol": "FullCalendarView.dequeueReusableCell(withReuseIdentifier:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 28,
+      "symbol": "FullCalendarView.register(_:forCellWithReuseIdentifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 29,
+      "symbol": "FullCalendarView.register(_:forCellWithReuseIdentifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 33,
+      "symbol": "FullCalendarView.register(_:forHeaderFooterViewReuseIdentifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 34,
+      "symbol": "FullCalendarView.dequeueReusableHeaderFooterView(withReuseIdentifier:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 37,
+      "symbol": "FullCalendarView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 39,
+      "symbol": "FullCalendarView.beginUpdates()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 41,
+      "symbol": "FullCalendarView.endUpdates()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 43,
+      "symbol": "FullCalendarView.insertItems(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 45,
+      "symbol": "FullCalendarView.deleteItems(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 47,
+      "symbol": "FullCalendarView.scrollToDate(date:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 49,
+      "symbol": "FullCalendarView.moveItem(from:to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 51,
+      "symbol": "FullCalendarView.insertSection(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 53,
+      "symbol": "FullCalendarView.deleteSection(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 55,
+      "symbol": "FullCalendarView.reloadSection(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 60,
+      "symbol": "FullCalendarView.dequeueReusableHeaderFooterView(withReuseIdentifier:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/FullCalendarView.swift",
+      "line": 64,
+      "symbol": "FullCalendarView.performBatchUpdates(_:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/TimeStretch.swift",
+      "line": 12,
+      "symbol": "CalendarSlotSize",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/TimeStretch.swift",
+      "line": 14,
+      "symbol": "CalendarSlotSize.fifteen",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/TimeStretch.swift",
+      "line": 14,
+      "symbol": "CalendarSlotSize.five",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/TimeStretch.swift",
+      "line": 14,
+      "symbol": "CalendarSlotSize.sixty",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarCollectionView/TimeStretch.swift",
+      "line": 14,
+      "symbol": "CalendarSlotSize.thirty",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarConstants.swift",
+      "line": 12,
+      "symbol": "ScheduleViewDimensions",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarConstants.swift",
+      "line": 18,
+      "symbol": "ScheduleViewDimensions.init(cellHeight:dateHeaderWidth:dateHeaderHeight:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarConstants.swift",
+      "line": 27,
+      "symbol": "CalendarDimensions",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarConstants.swift",
+      "line": 34,
+      "symbol": "CalendarDimensions",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/CalendarConstants.swift",
+      "line": 36,
+      "symbol": "CalendarDimensions.defaultDimensions",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/AnywhereCalendarView.swift",
+      "line": 16,
+      "symbol": "AnywhereCalendarView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/AnywhereCalendarView.swift",
+      "line": 23,
+      "symbol": "AnywhereCalendarView.configure(withConfiguration:theme:font:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/AnywhereCalendarView.swift",
+      "line": 29,
+      "symbol": "AnywhereCalendarView.updateUserRegion(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/AnywhereCalendarView.swift",
+      "line": 39,
+      "symbol": "AnywhereCalendarView.getWeeklyCalendar(withConfiguration:dataProvider:actionDelegate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/AnywhereCalendarView.swift",
+      "line": 47,
+      "symbol": "AnywhereCalendarView.getThreeDayCalendar(withConfiguration:dataProvider:actionDelegate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/AnywhereCalendarView.swift",
+      "line": 56,
+      "symbol": "AnywhereCalendarView.getDailyCalendar(withConfiguration:dataProvider:actionDelegate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/AnywhereCalendarView.swift",
+      "line": 66,
+      "symbol": "AnywhereCalendarView.getScheduleView(withConfig:placeholderView:dimension:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/AnywhereCalendarView.swift",
+      "line": 75,
+      "symbol": "AnywhereCalendarView.getCustomCalendarView(forNumberOfDays:withConfiguration:dataProvider:actionDelegate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/AnywhereCalendarView.swift",
+      "line": 88,
+      "symbol": "AnywhereCalendarView.getIntraEventsByDate(originalEvents:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/FullCalendars.swift",
+      "line": 16,
+      "symbol": "CalendarView",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/FullCalendars.swift",
+      "line": 17,
+      "symbol": "CalendarView.actionDelegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/FullCalendars.swift",
+      "line": 18,
+      "symbol": "CalendarView.dataProvider",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/FullCalendars.swift",
+      "line": 20,
+      "symbol": "CalendarView.setActiveDate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/FullCalendars.swift",
+      "line": 21,
+      "symbol": "CalendarView.reloadCalendar()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/FullCalendars.swift",
+      "line": 69,
+      "symbol": "CalendarConfiguration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/FullCalendars.swift",
+      "line": 75,
+      "symbol": "CalendarConfiguration.init(withUserAvailability:userRegion:timeFormat:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/FullCalendars.swift",
+      "line": 82,
+      "symbol": "CalendarViewConfiguration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/FullCalendars.swift",
+      "line": 84,
+      "symbol": "CalendarViewConfiguration.ExcessAllDayEventsTitleConfiguration",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/FullCalendars.swift",
+      "line": 85,
+      "symbol": "CalendarViewConfiguration.ExcessAllDayEventsTitleConfiguration.count",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/FullCalendars.swift",
+      "line": 86,
+      "symbol": "CalendarViewConfiguration.ExcessAllDayEventsTitleConfiguration.more",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/FullCalendars.swift",
+      "line": 87,
+      "symbol": "CalendarViewConfiguration.ExcessAllDayEventsTitleConfiguration.custom(text:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/FullCalendars.swift",
+      "line": 99,
+      "symbol": "CalendarViewConfiguration.init(withSlotSize:shouldShowSlotLines:shouldShowDateHeader:calendarDimensions:shouldHaveFloatingDayOff:shouldShowDateHeaderSeparator:shouldHaveFloatingAllDayEvent:shouldHaveStripedOffHours:numberOfAllDayEventInCollapsedMode:moreAllDayEventConfiguration:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/FullCalendars.swift",
+      "line": 121,
+      "symbol": "ScheduleViewConfiguration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/FullCalendars.swift",
+      "line": 123,
+      "symbol": "ScheduleViewConfiguration.PlaceholderConfig",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/FullCalendars.swift",
+      "line": 124,
+      "symbol": "ScheduleViewConfiguration.PlaceholderConfig.daily",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/FullCalendars.swift",
+      "line": 125,
+      "symbol": "ScheduleViewConfiguration.PlaceholderConfig.weekly",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/FullCalendars.swift",
+      "line": 126,
+      "symbol": "ScheduleViewConfiguration.PlaceholderConfig.allCases",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Interface/FullCalendars.swift",
+      "line": 136,
+      "symbol": "ScheduleViewConfiguration.init(shouldHaveStickyDate:placeholderConfig:textForNoEventDay:shouldShowHeader:shouldShowEventView:shouldAllowFreeScrollToBottom:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleBaseViewController.swift",
+      "line": 12,
+      "symbol": "ScheduleBaseViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleBaseViewController.swift",
+      "line": 18,
+      "symbol": "ScheduleBaseViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleBaseViewController.swift",
+      "line": 20,
+      "symbol": "ScheduleBaseViewController.actionDelegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleBaseViewController.swift",
+      "line": 25,
+      "symbol": "ScheduleBaseViewController.dataProvider",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleBaseViewController.swift",
+      "line": 76,
+      "symbol": "ScheduleBaseViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleBaseViewController.swift",
+      "line": 86,
+      "symbol": "ScheduleBaseViewController.viewWillTransition(to:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleBaseViewController.swift",
+      "line": 240,
+      "symbol": "ScheduleBaseViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleBaseViewController.swift",
+      "line": 242,
+      "symbol": "ScheduleBaseViewController.setActiveDate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleBaseViewController.swift",
+      "line": 247,
+      "symbol": "ScheduleBaseViewController.reloadCalendar()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleBaseViewController.swift",
+      "line": 253,
+      "symbol": "ScheduleBaseViewController.scrollToDate(date:toLastItem:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleBaseViewController.swift",
+      "line": 267,
+      "symbol": "ScheduleBaseViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleBaseViewController.swift",
+      "line": 269,
+      "symbol": "ScheduleBaseViewController.insertItems(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleBaseViewController.swift",
+      "line": 275,
+      "symbol": "ScheduleBaseViewController.deleteItems(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleBaseViewController.swift",
+      "line": 281,
+      "symbol": "ScheduleBaseViewController.moveItem(from:to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleBaseViewController.swift",
+      "line": 285,
+      "symbol": "ScheduleBaseViewController.reloadItems(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleBaseViewController.swift",
+      "line": 291,
+      "symbol": "ScheduleBaseViewController.scrollToDate(date:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleBaseViewController.swift",
+      "line": 295,
+      "symbol": "ScheduleBaseViewController.dequeueReusableCell(withReuseIdentifier:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleBaseViewController.swift",
+      "line": 299,
+      "symbol": "ScheduleBaseViewController.register(_:forCellWithReuseIdentifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleBaseViewController.swift",
+      "line": 304,
+      "symbol": "ScheduleBaseViewController.register(_:forCellWithReuseIdentifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleBaseViewController.swift",
+      "line": 322,
+      "symbol": "ScheduleBaseViewController.register(_:forHeaderFooterViewReuseIdentifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleBaseViewController.swift",
+      "line": 331,
+      "symbol": "ScheduleBaseViewController.dequeueReusableHeaderFooterView(withReuseIdentifier:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleCRUDManager.swift",
+      "line": 14,
+      "symbol": "ScheduleBaseViewController.beginUpdates()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleCRUDManager.swift",
+      "line": 22,
+      "symbol": "ScheduleBaseViewController.endUpdates()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleCRUDManager.swift",
+      "line": 31,
+      "symbol": "ScheduleBaseViewController.insertSection(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleCRUDManager.swift",
+      "line": 40,
+      "symbol": "ScheduleBaseViewController.deleteSection(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleEventTableViewController.swift",
+      "line": 275,
+      "symbol": "ScheduleEventTableViewController.dequeueReusableCell(withReuseIdentifier:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleEventTableViewController.swift",
+      "line": 279,
+      "symbol": "ScheduleEventTableViewController.register(_:forCellWithReuseIdentifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleEventTableViewController.swift",
+      "line": 283,
+      "symbol": "ScheduleEventTableViewController.register(_:forCellWithReuseIdentifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/ScheduleView/ScheduleEventTableViewController.swift",
+      "line": 297,
+      "symbol": "ScheduleEventTableViewController.register(_:forHeaderFooterViewReuseIdentifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Utils/AppExtensions.swift",
+      "line": 84,
+      "symbol": "Date.add(component:value:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Utils/CalendarTheme.swift",
+      "line": 47,
+      "symbol": "CalendarTheme",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Utils/CalendarTheme.swift",
+      "line": 49,
+      "symbol": "CalendarTheme.backgroundColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Utils/CalendarTheme.swift",
+      "line": 51,
+      "symbol": "CalendarTheme.offHoursBackgroundColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Utils/CalendarTheme.swift",
+      "line": 52,
+      "symbol": "CalendarTheme.offHoursStripeColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Utils/CalendarTheme.swift",
+      "line": 53,
+      "symbol": "CalendarTheme.workingHoursBackgroundColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Utils/CalendarTheme.swift",
+      "line": 54,
+      "symbol": "CalendarTheme.workingHoursDivLineColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Utils/CalendarTheme.swift",
+      "line": 56,
+      "symbol": "CalendarTheme.hourSeparatorColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Utils/CalendarTheme.swift",
+      "line": 57,
+      "symbol": "CalendarTheme.daySeparatorColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Utils/CalendarTheme.swift",
+      "line": 59,
+      "symbol": "CalendarTheme.timeHeaderBackgroundColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Utils/CalendarTheme.swift",
+      "line": 60,
+      "symbol": "CalendarTheme.timeheaderTextColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Utils/CalendarTheme.swift",
+      "line": 62,
+      "symbol": "CalendarTheme.dateHeaderBackgroundColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Utils/CalendarTheme.swift",
+      "line": 63,
+      "symbol": "CalendarTheme.currentDateHighlightColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Utils/CalendarTheme.swift",
+      "line": 68,
+      "symbol": "CalendarTheme.currentTimelineColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Utils/CalendarTheme.swift",
+      "line": 70,
+      "symbol": "CalendarTheme.selectorColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Utils/CalendarTheme.swift",
+      "line": 72,
+      "symbol": "CalendarTheme.heading",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Utils/CalendarTheme.swift",
+      "line": 73,
+      "symbol": "CalendarTheme.subHeading",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Utils/CalendarTheme.swift",
+      "line": 75,
+      "symbol": "CalendarTheme.dayOffColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Utils/CalendarTheme.swift",
+      "line": 79,
+      "symbol": "CalendarTheme",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Utils/CalendarTheme.swift",
+      "line": 80,
+      "symbol": "CalendarTheme.Dark",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Utils/CalendarTheme.swift",
+      "line": 84,
+      "symbol": "CalendarTheme.Light",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Utils/CalendarTheme.swift",
+      "line": 107,
+      "symbol": "CalendarTheme.SystemTheme",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Views/TappableView.swift",
+      "line": 10,
+      "symbol": "TappableView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Views/TappableView.swift",
+      "line": 13,
+      "symbol": "TappableView.action",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Views/TappableView.swift",
+      "line": 15,
+      "symbol": "TappableView.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Views/TappableView.swift",
+      "line": 20,
+      "symbol": "TappableView.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK/AnywhereCalendarSDK/Sources/AnywhereCalendarView/Views/TappableView.swift",
+      "line": 24,
+      "symbol": "TappableView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/vignesh/Documents/Office/AnywhereCalendarSDK"
+}
